@@ -19,7 +19,11 @@ public class Eva3_3_Try_catch {
     
     }catch (ArithmeticException e){
         System.out.println("Exception"+ e.getMessage()); 
+        //Se genera un objeto exception llamado "e"
+        //De tipo ArithmeticException
+        System.out.println("Se produjo un error: "+e.getMessage());
     }
+        System.out.println("Se termina el programa");
         
     }
     
